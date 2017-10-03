@@ -15,8 +15,8 @@ ul {
 form {
     padding: 8px 24px;
     margin: 0 auto;
-   
 }
+
 form > input,
 form > button {
     display: block;
@@ -24,7 +24,7 @@ form > button {
     width: 400px;
     padding: 8px 8px;
     border: 1px solid #808080;
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
 }
 
 form > button {
@@ -46,15 +46,18 @@ form > button {
     width: 90%;
     padding-left: 30%;
     padding-right: 20%;
-/*
+    /*
   margin-left: 26rem;
 */
 }
 
-.main-menu{
-    background: #1a2a6c;  /* fallback for old browsers */
-    background: -webkit-#1a2a6c;  /* Chrome 10-25, Safari 5.1-6 */
-    background: #1a2a6c; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.main-menu {
+    background: #1a2a6c;
+    /* fallback for old browsers */
+    background: -webkit-#1a2a6c;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #1a2a6c;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .main-menu ul {
@@ -71,7 +74,7 @@ form > button {
     text-align: center;
 }
 
-.main-menu ul li a{
+.main-menu ul li a {
     color: #FFFFFF;
     font-size: 36px;
 }
@@ -82,20 +85,20 @@ form > button {
     padding: 2rem;
 }
 
-.province-list li{
+.province-list li {
     line-height: 4rem;
 }
 
-.province-list li small{
+.province-list li small {
     padding-left: 25px;
     font-size: 1rem;
 }
 
-.province-list li a{
+.province-list li a {
     color: #FF4500;
 }
 
-.province-list li a h2{
+.province-list li a h2 {
     font-size: 2.5rem;
 }
 
@@ -105,9 +108,6 @@ form > button {
 }
 
 .item-box p {
-    color:  darkmagenta;
+    color: darkmagenta;
     font-size: 20px;
 }
-
-
-

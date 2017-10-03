@@ -1,4 +1,3 @@
-
 let AddNewForm = React.createClass({
     propTypes: {
         itemsCount: React.PropTypes.number.isRequired
@@ -140,7 +139,7 @@ let ItemPage = React.createClass({
             className: "inner-content"
         }, React.createElement("div", {
             className: "item-box"
-        }, React.createElement("h1", {}, this.props.name), React.createElement("p", {},"Capital:" + this.props.capital), React.createElement("p", {}, "Districts: " + this.props.districts), React.createElement("a", {
+        }, React.createElement("h1", {}, this.props.name), React.createElement("p", {}, "Capital:" + this.props.capital), React.createElement("p", {}, "Districts: " + this.props.districts), React.createElement("a", {
             href: "#provinceList"
         })))));
     }
@@ -165,7 +164,6 @@ let ListView = React.createClass({
         }, listElement))));
     }
 });
-
 let state = {
     location: ""
 };
